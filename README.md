@@ -1,14 +1,12 @@
 # tmux_and_screen
 ## Tmux and screen cheatsheet
 
-| Action	                   | tmux	                    |                      screen    |
-| ---------------------------------|:------------------------------:|:------------------------------:|
-| start a new session              | tmux OR tmux new-nession       |                      screen    |
-	tmux OR
-tmux new OR
-tmux new-session	screen
-re-attach a detached session	tmux attach OR
-tmux attach-session	screen-r
+| Action	                    | tmux	                         |                      screen    |
+| --------------------------------- | ---------------------------------------- | ------------------------------ |
+| start a new session               | tmux OR tmux new-nession                 |                      screen    |
+| re-attach a detached session      | tmux attach OR tmux attach-session       | screen -r                      |
+| re-attach  an attached session    | tmux attach -d OR tmux attach-session -d | screen -dr                     |
+
 re-attach an attached session (detaching it from elsewhere)	tmux attach -d OR
 tmux attach-session -d	screen -dr
 re-attach an attached session (keeping it attached elsewhere)	tmux attach OR
