@@ -2,6 +2,7 @@
 ## Tmux and screen cheatsheet
 
 | Action	| tmux	| screen |
+| --------|:-----:|-------:|
 
 start a new session	tmux OR
 tmux new OR
