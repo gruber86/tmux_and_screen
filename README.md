@@ -1,7 +1,8 @@
 # tmux_and_screen
 ## Tmux and screen cheatsheet
-***
-| Action	| tmux	| screen
+
+| Action	| tmux	| screen |
+
 start a new session	tmux OR
 tmux new OR
 tmux new-session	screen
