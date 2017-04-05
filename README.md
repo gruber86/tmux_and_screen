@@ -1,10 +1,10 @@
 # tmux_and_screen
 ## Tmux and screen cheatsheet
 
-| Action	| tmux	| screen |
-| --------|:-----:|-------:|
-
-start a new session	tmux OR
+| Action	                   | tmux	                    |                      screen    |
+| ---------------------------------|:------------------------------:|:------------------------------:|
+| start a new session              | tmux OR tmux new-nession       |                      screen    |
+	tmux OR
 tmux new OR
 tmux new-session	screen
 re-attach a detached session	tmux attach OR
