@@ -1,19 +1,15 @@
 # tmux_and_screen
 ## Tmux and screen cheatsheet
 
-| Action	                    | tmux	                         |                      screen    |
-| --------------------------------- | ---------------------------------------- | ------------------------------ |
-| start a new session               | tmux OR tmux new-nession                 |                      screen    |
-| re-attach a detached session      | tmux attach OR tmux attach-session       | screen -r                      |
-| re-attach  an attached session    | tmux attach -d OR tmux attach-session -d | screen -dr                     |
+| Action	                                  | tmux          	                         |                      screen    |
+| ----------------------------------------- | ---------------------------------------- | ------------------------------ |
+| start a new session                       | tmux OR tmux new-nession                 |                      screen    |
+| re-attach a detached session              | tmux attach OR tmux attach-session       | screen -r                      |
+| re-attach  an attached session            | tmux attach -d OR tmux attach-session -d | screen -dr                     |
+| detach from currently attached session    | ^b d OR ^b :detach                       | ^a ^d OR ^a :detach            |
 
-re-attach an attached session (detaching it from elsewhere)	tmux attach -d OR
-tmux attach-session -d	screen -dr
-re-attach an attached session (keeping it attached elsewhere)	tmux attach OR
-tmux attach-session	screen -x
-detach from currently attached session	^b d OR
-^b :detach	^a ^d OR
-^a :detach
+
+detach from currently attached session	^b d OR ^b :detach	^a ^d OR ^a :detach
 rename-window to newname	^b , <newname> OR
 ^b :rename-window <newn>	^a A <newname>
 list windows	^b w	^a w
